@@ -1,0 +1,11 @@
+# Flutter-specific files and directories
+.dart_tool/
+.idea/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.DS_Store
+android/.gradle/
+ios/Pods/
+ios/.symlinks/
