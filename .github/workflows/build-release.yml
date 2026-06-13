@@ -32,7 +32,7 @@ jobs:
         run: flutter build apk --release
 
       - name: Upload APK as Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: peblo-story-buddy-apk
           path: build/app/release/app-release.apk
